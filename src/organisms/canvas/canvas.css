@@ -1,0 +1,13 @@
+.canvas-component{
+    display: grid;
+    grid-template-columns:repeat(21, 1fr);
+    grid-template-rows:repeat(21, 1fr);
+    padding: 30px;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .canvas-component{
+        padding: 90px;
+    }
+}

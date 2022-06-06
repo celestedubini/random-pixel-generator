@@ -1,0 +1,25 @@
+.size {
+    width: 10px;
+    height: 10px;
+}
+@media (min-width: 768px) {
+    .size{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .size{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.black {
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
